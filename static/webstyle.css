@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+
+ }
+
+ #container
+ 	{
+ 		
+ 		width: 1200px;
+ 		margin: 0 auto;
+ 		border: 1px solid black;
+ 		font-family: arial, verdana, sans-serif;
+ 	}
+ 	#header
+ 		{
+			background: #0b9085;
+			width: 1180px;
+			padding: 20px 10;
+			color: white;
+ 		}
+ 	#navigation
+ 		{
+ 			background: #4ad87c;
+ 			width: 1200px;
+
+ 			
+ 		}
+ 		#navigation ul
+ 			{
+				list-style: none;
+ 			}
+ 		#navigation ul li 
+ 			{
+ 				float: left;
+ 				width: 210px;
+ 				padding: 15px;
+ 				text-align: center;
+ 				cursor: progress;
+ 			}
+ 		#navigation ul li:hover
+ 			{
+				background: #ffd280;
+				color: blue
+ 			}
+ 		#navigation a
+ 			{
+ 				color: black;
+ 			}
+ 	#middle
+ 		{
+			
+			
+ 		}
+ 		#left 
+ 			{
+ 				
+ 				width: 800px;
+ 				height: 600px;
+ 				float: left;
+
+ 			}
+ 			.post
+ 				{
+ 					
+ 					margin: 20px;
+ 					
+
+ 				}
+ 				.title
+ 					{
+ 						background: brown;
+ 						padding: 15px 10px;
+ 						color: white;
+ 						font-size: 25px;
+ 						font-weight: bold;
+ 					}
+ 				.description
+ 					{
+ 						background: blue;
+ 						padding: 20px;
+ 					}
+ 		#right
+ 			{
+ 				width: 360px;
+ 				height: 600px;
+ 				float: left;
+ 				padding: 20px;
+
+ 			}
+ 			#right h2
+ 					{
+ 						text-align: center;
+ 					}
+ 			#right img
+ 					{
+ 						padding: 20px; 
+ 						height: 200px;
+ 						border: 20px;
+ 						margin-left: auto;
+ 						margin-right: auto;
+ 						display: block;
+ 					}
+ 			.secure
+ 					{
+ 						background: brown;
+ 						padding: 20px
+
+
+ 					}
+ 	#footer
+ 		{
+ 			background: brown;
+ 			width: 1200px;
+ 			text-align: center;
+ 			padding: 20px 0;
+ 		}
